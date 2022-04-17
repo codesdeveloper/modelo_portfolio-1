@@ -143,8 +143,33 @@ header{
   font-family: var(--font-action);
   color: #555;
   font-size: 2rem;
+  transition: color 1s;
 }
 
 .menu-link:hover{
   color: #6a3090;
+}
+
+.social-media{
+  position: absolute;
+  bottom: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-media i{
+  background: #6a3093;
+  color:rgba(255, 255, 255, 1);
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: backgroun 1s;
+}
+
+.social-media i:hover{
+  background: #a044ff;
 }
