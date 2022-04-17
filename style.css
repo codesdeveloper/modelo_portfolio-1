@@ -145,6 +145,6 @@ header{
   font-size: 2rem;
 }
 
-.menu-item:hover{
+.menu-link:hover{
   color: #6a3090;
 }
