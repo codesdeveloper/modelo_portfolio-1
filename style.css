@@ -13,6 +13,20 @@
   width:2rem;
   height: 2rem;
   position: fixed;
+  z-index: 100;
+  right: 2rem;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.line{
+  width: 100%;
+  height: .1rem;
+  background: #fff;
+  box-shadow: .1rem .1rem 1px #000;
 }
 
 header{
@@ -94,4 +108,14 @@ header{
     transform: translateY(10rem) rotateY(-30deg);}
   100%{
     transform: translateX(0) rotateY(0); opacity: 1;}
+}
+
+.sidebar{
+  width: 20rem;
+  height: 100vh;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  
 }
