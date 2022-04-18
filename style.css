@@ -18,12 +18,11 @@
 }
 
 .hamburguer{
-  background: red;
   width:2rem;
   height: 2rem;
   position: fixed;
   z-index: 100;
-  right: 2rem;
+  right: 1rem;
   top: 2rem;
   display: flex;
   flex-direction: column;
@@ -32,7 +31,7 @@
 }
 
 .show-menu .hamburguer{
-  right: 18rem;
+  right: 16rem;
 }
 
 .line{
@@ -40,6 +39,43 @@
   height: .1rem;
   background: #fff;
   box-shadow: .1rem .1rem 1px #000;
+  transition: transform 1s;
+}
+
+.show-menu #line1{
+transform: rotate(45deg)  translate(.3rem, .45rem);;
+}
+
+.show-menu #line2{
+  visibility: hidden;
+  opacity: 0;
+}
+
+.show-menu #line3{
+  transform: rotate(-45deg)  translate(.3rem, -.45rem);;
+}
+
+.hamburguer span{
+  position: absolute;
+  left: 3rem;
+  background: #a044ff;
+  height: 2rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: var(--font-action);
+}
+
+.hamburguer span::before{
+ content: "";
+ position: absolute;
+ border-top:  .5rem solid transparent;
+ border-left:  .5rem solid transparent;
+ border-bottom: .5rem solid transparent;
+ border-right:.5rem solid #a044ff ;
+ left: -1rem;
 }
 
 header{
