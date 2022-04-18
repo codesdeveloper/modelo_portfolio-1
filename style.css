@@ -28,6 +28,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   cursor: pointer;
+  transition: all 1s;
 }
 
 .show-menu .hamburguer{
@@ -66,6 +67,7 @@ transform: rotate(45deg)  translate(.3rem, .45rem);;
   align-items: center;
   color: #fff;
   font-family: var(--font-action);
+  opacity: 0;
 }
 
 .hamburguer span::before{
@@ -76,6 +78,10 @@ transform: rotate(45deg)  translate(.3rem, .45rem);;
  border-bottom: .5rem solid transparent;
  border-right:.5rem solid #a044ff ;
  left: -1rem;
+}
+
+.show-menu .hamburguer:hover span{
+  opacity: 1;
 }
 
 header{
