@@ -308,7 +308,7 @@ header{
   width: 100%;
 }
 
-conhecimento-img-wrapper img{
+.conhecimento-img-wrapper img{
   object-fit: cover;
   width: 100%;
 }
