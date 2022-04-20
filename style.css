@@ -262,3 +262,53 @@ header{
   grid-column: 11 / 14;
   grid-row: 5 / -1;
 }
+
+.sessao-conhecimentos{
+  background: #f5f5f5;
+}
+
+.sessao-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sessao-header h1{
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  color: #4b4b4b;
+  border-bottom: solid 3px #6a3093;
+  margin-bottom: 1.5rem;
+}
+
+.conhecimento-header{
+  display: flex;
+  align-items: center;
+  color: #4b4b4b;
+}
+
+.conhecimento-header i{
+  font-size: 2.5rem;
+}
+
+.conhecimento-header h3{
+  font-family: var(--font-secundary);
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.conhecimento-text{
+  font-family: var(--font-secundary);
+  margin-top: 1rem;
+}
+
+.conhecimento-img-wrapper{
+  grid-column: 7 / 11;
+  grid-row: 2 / 6;
+  width: 100%;
+}
+
+conhecimento-img-wrapper img{
+  object-fit: cover;
+  width: 100%;
+}
