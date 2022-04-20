@@ -229,8 +229,8 @@ header{
 .conhecimentos{
   display: grid;
   grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: repeat(6, 4rem);
-  grid-row: .5rem;
+  grid-template-rows: repeat(6, 6rem);
+  row-gap: .5rem;
 }
 
 .conhecimento:nth-child(1){
@@ -260,5 +260,5 @@ header{
 
 .conhecimento:nth-child(6){
   grid-column: 11 / 14;
-  grid-row: 1 / 5
+  grid-row: 5 / -1;
 }
