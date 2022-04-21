@@ -3,6 +3,13 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
 
+:root {
+
+  --font-primary: "Baloo Da 2", serif;
+  --font-secundary: "Josefin Slab", serif;
+  --font-action: "Mulish", serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,11 +17,8 @@
   text-decoration: none;
 }
 
-:root {
-
-  --font-primary: "Baloo Da 2", serif;
-  --font-secundary: "Josefin Slab", serif;
-  --font-action: "Mulish", serif;
+html{
+  scroll-behavior: smooth;
 }
 
 .hamburguer {
@@ -545,8 +549,6 @@ header {
   background: #6a3093;
   background: -webkit-linear-gradient(to right, #a044ff, #6a3090);
   background: linear-gradient(to right, #a044ff, #6a3090);
-  background: -webkit-linear-gradient(to right, #a044ff, #6a3090);
-  background: linear-gradient(to right, #a044ff, #6a3090);
   padding: 0 3rem;
   color: #fff;
   font-family: var(--font-primary);
@@ -597,25 +599,40 @@ footer {
 }
 
 .footer-content {
-  
+  width:60%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-content p {
-  
-}
-/*
-.social-list {
-  
+  font-family: var(--font-secundary);
+  color:#a7a7a7;
+  font-size: 1.2rem;
 }
 
-.li {
-  
-}
-*/
-.social-media a {
-  
+.social-list a{
+  margin: 0 2rem;
+  color: #a7a7a7;
 }
 
-.li a i {
-  
+.social-list ul{
+  display: flex;
+  font-size: 1.3rem;
+}
+
+#link-topo{
+ position: fixed;
+ right: 3rem;
+ bottom: 3rem;
+ width: 2rem;
+ height: 2rem;
+ background: #6a3093;
+ background: -webkit-linear-gradient(to right, #a044ff, #6a3090);
+ background: linear-gradient(to right, #a044ff, #6a3090);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color:#fff;
+ border-radius: .3rem;
+ box-shadow: 0 .1rem .6rem #00000009;
 }
