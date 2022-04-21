@@ -157,32 +157,59 @@
           </dv>
         </div>
     </section>
-    
+
     <section class="sessao-contato">
       <div class="contato-wrap">
         <div class="contato-left">
-          
+
         </div>
         <div class="contato-right">
-         <h1>Contato</h1>
-         <form action="">
-           <div class="input-group">
-             <input type="text" class="field" id="name">
-             <label for="name" class="field-label">Nome</label>
-           </div>
-           <div class="input-group">
-             <input type="text" class="field" id="email">
-             <label for="email" class="field-label">E-mail</label>
-           </div>
-           <div class="input-group">
-             <textarea class="field" id="mensagem"></textarea>
-             <label for="mensagem" class="field-label">Mensagem</label>
-           </div>
-           <button type="submit" class="btn btn-submit">Enviar</button>
-         </form>
+          <h1>Contato</h1>
+          <form action="">
+            <div class="input-group">
+              <input type="text" class="field" id="name" required>
+              <label for="name" class="field-label">Nome</label>
+            </div>
+            <div class="input-group">
+              <input type="text" class="field" id="email" required>
+              <label for="email" class="field-label">E-mail</label>
+            </div>
+            <div class="input-group">
+              <textarea class="field" id="mensagem" required></textarea>
+              <label for="mensagem" class="field-label">Mensagem</label>
+            </div>
+            <button type="submit" class="btn btn-submit">Enviar</button>
+          </form>
         </div>
       </div>
     </section>
+
+    <section class="sessao-orcamento">
+      <div class="orcamento-wrapper">
+        <h1>Faça um orçamento</h1>
+        <form action="">
+          <label for="qtde">Qtde de Páginas</label>
+          <input type="number" min="1" name="qtde" id="qtde">
+          <label for="js">Presiso de script Js</label>
+          <input type="checkbox" name="js" id="js">
+          <label for="">Layout</label>
+          <div class="group-layout">
+            <div>
+              <input type="radio" name="layout" id="layout-sim">
+              <label for="layout-sim">Preciso de layout</label>
+            </div>
+            <div>
+              <input type="radio" name="layout" id="layout-nao">
+              <label for="layout-nao">Já tenho um layout</label>
+            </div>
+          </div>
+          <label for="prazo">Prazo</label>
+          <input type="range" name="prazo" id="prazo">
+          <button type="submit" class="btn btn-orcamento">Enviar</button>
+        </form>
+      </div>
+  </div>
+  </section>
 
   </div>
 
