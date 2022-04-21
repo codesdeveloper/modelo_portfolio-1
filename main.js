@@ -1,4 +1,4 @@
-document.body.onload = function(){
+var start = function(){
 
   var preLoad = document.querySelector(".sessao-pre-load");
   var container = document.querySelector(".container");
