@@ -4,9 +4,10 @@ document.body.onload = function() {
     var container = document.querySelector(".container");
     container.style.display = "block";
     preLoad.style.display = "none";
-  }, 2000);
+  }, 0);
 }
 
 var hamburger = document.querySelector(".hamburguer").addEventListener("click", () => {
   document.querySelector(".container").classList.toggle("show-menu");
 });
+
