@@ -1,26 +1,26 @@
-# portfolio
-Página de portfolio pessoal
+# Página de Portfolio
+### Página de portfolio pessoal usando html, css e javascript
 
-## tarefas
+<br/>
 
-O controle das tarefas desse projeto serão realizadas no github
+* Captura de tela 1
 
-## Icones
+<br/>
 
-:package: nova funcionalidade
-:up: atualização
-:beatle: correção de bug
-:checkered_flag: release
+![alt text](captura-tela1.gif)
 
+<br/>
 
-#Muita coisa foi adiantado 
+* Captura de tela 2
 
-#Resta fazer:
+<br/>
 
+![alt text](captura-tela2.gif)
 
-[x] Responsivel da area de contato
-[x] Responsivel da area de orçamento
-[x] Responsivel da rodape
-[x] Animação de iniciação
-[ ] Video demostrativo
-[ ] Posta e divulgar
+<br/>
+
+* Captura de tela 3
+
+<br/>
+
+![alt text](captura-tela3.gif)
